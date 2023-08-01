@@ -11,7 +11,10 @@ const Mostplayeditem = ({photo, title, artist,index}) => {
                                 <h4>{title}</h4>
                                 <p>{artist}</p>
                             </div>
-                            <img src="./icon/play-solid(1).svg" class="play-icon"></img>
+                            <div class="play-icon-type2">
+                            <img src="./icon/play-solid(1).svg" />
+                            </div>
+                   
                         </div>
 
         </>

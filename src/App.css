@@ -36,7 +36,7 @@
 .container{
   margin-top:12px;
   margin:auto;
-  width:1080px;
+  width:1270px;
   height:auto;
 }
 .head-title {
@@ -46,7 +46,7 @@
 .main-container{
   margin-top:32px;
   display:flex;
-  width:1080px;
+  width:1270px;
   height:580px;
 
 }
@@ -97,7 +97,7 @@
   position: absolute;
   display:block;
   top:78%;
-  left:60%;
+  left:50%;
   width:10px;
   height:10px;
   padding:5px 5px;
@@ -154,11 +154,77 @@
   color:white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mostplayed-song{
+  color:white;
+  display:flex;
+  margin-top:16px;
+  position:relative;
+ 
+
+  
+}
+.mostplayed-song img{
+  width:42px;
+  height:42px;
+  margin-right:10px;
+}
+.mostplayed-song h3{
+  margin-right:14px;
+  margin-top:6px;
+}
+
+.title h4{
+  font-size:12px
+}
+
+.title p{
+  font-size:10px
+}
+
+.play-icon-type2{
+  position: absolute;
+  right: 0;
+  
+}
+.play-icon-type2 img{
+  
+  width:10px;
+  height:10px;
+  padding:5px 5px;
+  background: #1DB954;
+  border-radius: 50%;
+}
+
+.playlist-container{
+    
+  margin-left:16px;
+  margin-right:16px;
+  width:25%;
+  height:100%;
+  background-color:#0d0d0d;
+  border-radius:6px;
+}
+
+
+.playlist-content{
+  padding:18px 20px;
+}
+.playlist-content h2{
+  color:white;
+  margin-bottom:24px;
+}
+
+.playlist-item{
+  color:white;
+  display:flex;
+  margin-top:16px;
+  position:relative;
+ 
+
+  
+}
+.albumArt{
+  width:42px;
+  height:42px;
+  margin-right:10px;
 }
