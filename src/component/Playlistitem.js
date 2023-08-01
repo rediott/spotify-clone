@@ -12,7 +12,7 @@ const Playlistitem = ({photo, title, duration , numberofSong}) => {
                                <p>{numberofSong} - {duration}</p>
                            </div>
                            <div class="play-icon-type2">
-                                <img src="./icon/play-solid(1).svg" />
+                               <button><img src="./icon/play-solid(1).svg" /></button> 
                             </div>
                        </div>
 

@@ -12,7 +12,7 @@ const Mostplayeditem = ({photo, title, artist,index}) => {
                                 <p>{artist}</p>
                             </div>
                             <div class="play-icon-type2">
-                            <img src="./icon/play-solid(1).svg" />
+                            <button><img src="./icon/play-solid(1).svg" /></button> 
                             </div>
                    
                         </div>

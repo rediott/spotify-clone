@@ -8,7 +8,7 @@ const Songitem = ({photo, title, artist}) => {
                             <div class="song-pic">
                             <img src={photo} alt="" class="album-pic"/>
                             
-                            <img src="./icon/play-solid(1).svg" class="play-icon"></img>
+                            <button><img src="./icon/play-solid(1).svg" class="play-icon"></img></button> 
                             </div>
                             <div class="song-detail">
                                 <div class="title-artist">

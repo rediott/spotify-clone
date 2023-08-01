@@ -228,3 +228,17 @@
   height:42px;
   margin-right:10px;
 }
+
+.play-icon-type2 button{
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  cursor:pointer;
+}
+
+.song-item button{
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  cursor:pointer;
+}
